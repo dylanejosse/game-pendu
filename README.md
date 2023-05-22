@@ -1,6 +1,6 @@
 # Prise en main de JavaScript : Création du célèbre jeu du pendu
 
-Le but de ce projet est simple : créer en JavaScript le jeu du pendu. L'objectif de ce projet est de pouvoir travailler sur la manipulation des fichiers .js, sur la création d'écouteurs d'évènements et sur l'impact que ceux-ci peuvent avoir sur les interactions avec l'utilisateur !
+Le but de ce projet est simple : créer en JavaScript le jeu du pendu. L'objectif de ce projet est de pouvoir travailler sur la manipulation des fichiers .js, sur la création d'écouteurs d'évènement et sur l'impact que ceux-ci peuvent avoir sur les interactions avec l'utilisateur !
 
 ## Règles du jeu & mise en place 
 
@@ -20,13 +20,15 @@ Dans le cadre d'une partie, les règles du jeu suivantes seront suivies :
 
 Remarque : Si le joueur oublie les lettres qu'il a déjà proposé, pas de panique ! La section "Lettres déjà proposées" reprendra dynamiquement ces caractères et lui affichera pour éviter les doublons 🎩
 
+Remarque 2 : Si la lettre proposée est valide et est présente plusieurs fois dans le mot, toutes les occurences de cette lettre s'affiche !
+
 ## But pédagogique
 
 Ce projet m'a permis de travailler sur les notions suivantes :
 
 - Utilisation des branches sur Github (git checkout -b, git merge)
 - Création et utilisation de fonctions JavaScript,
-- Mise en place d'écouteurs d'évènements (querySelector(), createElement()...), 
+- Mise en place d'écouteurs d'évènement (querySelector(), createElement()...), 
 - Ajout et suppression de classes dynamiquement (gestion du darkMode par exemple),
 - Léger travail sur la partie CSS,
 - Autres : setTimeout(), location.reload(), window.alert()
