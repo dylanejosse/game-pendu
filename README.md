@@ -20,7 +20,7 @@ Dans le cadre d'une partie, les règles du jeu suivantes seront suivies :
 
 Remarque : Si le joueur oublie les lettres qu'il a déjà proposé, pas de panique ! La section "Lettres déjà proposées" reprendra dynamiquement ces caractères et lui affichera pour éviter les doublons 🎩
 
-Remarque 2 : Si la lettre proposée est valide et est présente plusieurs fois dans le mot, toutes les occurences de cette lettre s'affiche !
+Remarque 2 : Si la lettre proposée est valide et présente plusieurs fois dans le mot, toutes les occurences de cette lettre s'affiche !
 
 ## But pédagogique
 
