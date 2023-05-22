@@ -24,7 +24,7 @@ Remarque 2 : Si la lettre proposée est valide et présente plusieurs fois dans 
 
 ## But pédagogique
 
-⚠️‼️ Il s'agit ici d'une reprise d'un projet déjà réalisé par mes soins. les branches / commit n'ont donc pas été créé par fonctionnalités, mais plus par types de fichier (js, html, css...).
+⚠️‼️ Il s'agit ici d'une reprise d'un projet déjà réalisé par mes soins avant la création de ce repo. Les branches / commit n'ont donc pas été créé par fonctionnalités, mais plus par types de fichier (js, html, css...).
 
 Ce projet m'a permis de travailler sur les notions suivantes :
 
