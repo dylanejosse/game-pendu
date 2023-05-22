@@ -1,0 +1,130 @@
+body {
+    background-color: #79ffd0;
+    color: #10103f;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Section titre & but du jeu */
+
+.presentation-rules img{
+    padding-top: 30px;
+    width: 30px;
+}
+
+.presentation-rules {
+    margin: auto;
+    width: 80%;
+    height: 25vh;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 30px 0;
+}
+
+.presentation-rules p{
+    font-size: 1.2rem;
+    padding: 5px 0;
+}
+
+/* Mot à découvrir */
+
+.mystery-word {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+    height: 50vh;
+    width: 80%;
+    margin: auto;
+}
+
+.mystery-word h2{
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(242, 53, 147);
+    padding-bottom: 20px;
+}
+
+.letter {
+    color: transparent;
+   margin: 2px;
+   width: 24px;
+}
+
+.letter--activate {
+    text-align: center;
+    color: rgb(242, 53, 147);
+}
+
+.letter:after {
+    content: "";
+    height: 5px;
+    width: 24px;
+    display: block;
+    border-bottom:5px solid rgb(242, 53, 147);
+}
+
+/* Footer de la page */
+
+footer {
+    height: 25vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: underline;
+    padding: 20px;
+}
+
+footer h4 {
+    display: flex;
+    flex-direction: row;
+}
+
+.transparent {
+    color: transparent;
+}
+
+.wrong-letter{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+/* Mise en place du mode nuit */
+
+.dark--mode {
+    background-color:  rgb(16, 16, 63);
+    color: rgb(121, 255, 208);
+}
+
+/* Gestion du paragraphe annonçant le nombre de tentatives restantes */
+
+.p-tentatives {
+    margin-top: 70px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.last-tentatives {
+    color:rgb(242, 53, 147);
+    text-align: center;
+    padding-bottom: 0;
+}
